@@ -1,0 +1,15 @@
+{
+  "name": "block-check-proxy",
+  "version": "1.0.0",
+  "description": "Server-side proxy so the Block Check Roblox stats tracker can call Roblox's API without CORS issues.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
